@@ -9,3 +9,8 @@
   background-color: #000000;
   border-bottom: 3px solid #AAAAAA;
 }
+
+.body {
+  height: 600px;
+  background-color: #000000;
+}
