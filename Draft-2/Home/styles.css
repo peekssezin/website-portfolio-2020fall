@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 150px;
+  background-color: #000000;
+  border-bottom: 3px solid #AAAAAA;
+}
+
+.body {
+  height: 507px;
+  background-color: #000000;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #FF0000;
+}
+
+.row {
+
+  display: flex;
+  justify-content: space-around;
+  vertical-align: bottom;
+  border: 1px solid #00FF00;
+}
+
+.photo-grid-item {
+
+
+  flex-wrap: wrap;
+
+}
+
+.item img {
+  display: block;
+
+}
+
+.itemm img {
+  display: block;
+  border: 10px solid #00FFFF;
+}
+
+.item-relative {
+  position: relative;
+  bottom: -160px;
+}
