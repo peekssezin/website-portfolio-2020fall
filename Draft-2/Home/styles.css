@@ -11,22 +11,31 @@
 }
 
 .body {
-  height: 507px;
+  height: 100%;
+  overflow: hidden;
   background-color: #000000;
 }
 
 .photo-grid-container {
   display: flex;
   justify-content: center;
-  border: 1px solid #FF0000;
+
 }
 
 .row {
 
   display: flex;
   justify-content: space-around;
-  vertical-align: bottom;
-  border: 1px solid #00FF00;
+
+
+}
+
+.row-0 {
+  height: 88px;
+}
+
+.row-3 {
+  height: 99px;
 }
 
 .photo-grid-item {
@@ -43,10 +52,10 @@
 
 .itemm img {
   display: block;
-  border: 10px solid #00FFFF;
+  border: 10px solid #000000;
 }
 
 .item-relative {
   position: relative;
-  bottom: -160px;
+  bottom: -164px;
 }
