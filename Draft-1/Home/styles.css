@@ -11,24 +11,42 @@
 }
 
 .body {
-  height: 600px;
+  height: 507px;
   background-color: #000000;
 }
 
 .photo-grid-container {
   display: flex;
   justify-content: center;
+  border: 1px solid #FF0000;
 }
 
-.photo-grid {
-  width: 924px;
+.row {
+
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  vertical-align: bottom;
+  border: 1px solid #00FF00;
 }
 
 .photo-grid-item {
-  border: 1px solid #fff;
-  width: 308px;
-  height: 308px;
+
+
+  flex-wrap: wrap;
+
+}
+
+.item img {
+  display: block;
+
+}
+
+.itemm img {
+  display: block;
+  border: 10px solid #00FFFF;
+}
+
+.item-relative {
+  position: relative;
+  bottom: -160px;
 }
