@@ -10,13 +10,24 @@
   border-bottom: 3px solid #AAAAAA;
 }
 
+.side {
+  width: 20%;
+  height: 507px;
+  overflow: hidden;
+  float: left;
+  background-color: #00FF00;
+}
+
 .body {
   height: 100%;
+  width: 60%;
   overflow: hidden;
+  float: left;
   background-color: #000000;
 }
 
 .photo-grid-container {
+  width: 100%;
   display: flex;
   justify-content: center;
 

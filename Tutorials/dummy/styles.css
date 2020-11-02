@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 100px;
+  background-color: #B2D6FF;    /* Medium blue */
+  float: left;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #F09A9D;    /* Red */
+  float: left;
+}
+
+.content {
+  width: 500px;
+  background-color: #F5CF8E;    /* Yellow */
+  float: right;
+}
