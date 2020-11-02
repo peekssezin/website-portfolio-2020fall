@@ -1,20 +1,23 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-
 .header {
   height: 150px;
   background-color: #000000;
   border-bottom: 3px solid #AAAAAA;
-  color: #FFFFFF;
   text-align: center;
-  
+  position: relative;
+}
 
+.alignment {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top:20%;
 }
 
 .sidebar {
