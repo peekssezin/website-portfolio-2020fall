@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 150px;
+  background-color: #000000;
+  border-bottom: 3px solid #AAAAAA;
+  text-align: center;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.alignment {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  padding: 35px;
+}
+
+.side {
+  width: 20%;
+  height: 507px;
+  overflow: hidden;
+  float: left;
+  background-color: #00FF00;
+}
+
+.body {
+  height: 100%;
+  width: 60%;
+  overflow: hidden;
+  float: left;
+  background-color: #000000;
+}
+
+.photo-grid-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.row {
+
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.row-0 {
+  height: 88px;
+}
+
+.row-3 {
+  height: 99px;
+}
+
+.photo-grid-item {
+
+
+  flex-wrap: wrap;
+
+}
+
+.item img {
+  display: block;
+
+}
+
+.itemm img {
+  display: block;
+  border: 10px solid #000000;
+}
+
+.item-relative {
+  position: relative;
+  bottom: -164px;
+}
+
+.name {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-family: "Lucida Console";
+}
