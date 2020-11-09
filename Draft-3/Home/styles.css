@@ -91,3 +91,24 @@
 .desc {
   font-family: 'Lucida Console', monospace;
 }
+
+a:link {
+  color: #00FF99;
+  text-decoration: none;
+}
+a:visited {
+  color: #00FF99;
+}
+a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+a:active {
+  color: #FFFFFF;
+}
+a:visited:hover {
+  color: #FFFFFF;
+}
+a:visited:active {
+  color: #FFFFFF;
+}

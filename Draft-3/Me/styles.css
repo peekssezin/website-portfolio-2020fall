@@ -33,7 +33,7 @@
 
 .body {
   float: left;
-  border: 20px solid red;
+  border: 20px solid #00FF99;
   width: 85%;
   height: 507px;
   background-color: #000000;
@@ -73,4 +73,25 @@
   width: 50%;
   height: 100%;
   padding: 10px;
+}
+
+a:link {
+  color: #00FF99;
+  text-decoration: none;
+}
+a:visited {
+  color: #00FF99;
+}
+a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+a:active {
+  color: #FFFFFF;
+}
+a:visited:hover {
+  color: #FFFFFF;
+}
+a:visited:active {
+  color: #FFFFFF;
 }
